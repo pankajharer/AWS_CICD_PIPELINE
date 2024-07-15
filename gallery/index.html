@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/galleryscroll.css">
+        <link rel="stylesheet" type="text/css" href="css/scroll.css">
+        <link rel="stylesheet" href="css/museum.css">
+
+
+
+        <meta charset="UTF-8" />
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+        <!-- jQuery library -->
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+
+
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <link rel="stylesheet"
+            href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous">
+        <title>Museum Gallery</title>
+        <link rel="icon" href="../img/logo.png">
+        <style>
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 16px;
+            }
+            a:hover {
+                background-color:red;
+                color:wheat;
+            }
+            .previous {
+                background-color:pink;
+                color: black;
+            }
+            .navbar-dark .navbar-nav .nav-link {
+                color: black;
+            }
+        </style>
+    </head>    
+    <body>
+        <button class="btn btn-outline-primary btn-large mt-4" onclick="location.href = '../'"><i class="fa fa-arrow-left"></i> <b>Back</b></button>
+        <br><br>
+        <!-- Back to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <!--gallery-->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="heading text-center">
+                    <img class="dividerline" src="Img/sep.png" alt="" />
+                    <h2>museum Gallery</h2>
+                    <img class="dividerline" src="Img/sep.png" alt="" />
+                </div>
+
+                <div id="grid-gallery" class="grid-gallery">
+
+                    <section class="grid-wrap">
+                        <ul class="grid">
+                            <li class="grid-sizer"></li><!-- for Masonry column width -->
+                            <div class="container-fluid">
+                                <div class="row mt-4">
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/1.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/1.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>Indian Sculpture</h3>
+                                               <p>
+
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/10.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/10.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>museum</h3>
+                                               <p>
+
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/3.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/3.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>Best Heritage</h3>
+                                               <p>
+
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/4.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/4.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption>
+                                                <h3>Greece and Rome</h3>
+                                                <p>
+
+                                                </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/9.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/9.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>statue of liberty</h3>
+                                               <p>
+
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/6.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/6.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>Selected Highlights</h3>
+                                                <p>
+
+                                                </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/7.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/7.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>Foetus</h3>
+                                               <p>
+
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/8.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/8.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>vantage point</h3>
+                                                <p>
+
+                                                </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                    <div class="item col-sm-6 col-md-4 mb-3">
+                                        <a href="Img/5.jpg" class="fancybox"
+                                            data-fancybox="fgallery">
+                                            <img src="Img/5.jpg" width="100%"
+                                                height="100%">
+
+                                            <figcaption><h3>Science Museum</h3>
+                                               <p>
+                                                   
+                                               </p>
+                                            </figcaption>
+                                        </a>
+                                    </div>
+
+                                </ul>
+                            </section><!-- // end small images -->
+
+                            <script>
+ 
+                                    //Get the button
+                                   var mybutton = document.getElementById("myBtn");
+                                   
+                                   // When the user scrolls down 20px from the top of the document, show the button
+                                   window.onscroll = function() {scrollFunction()};
+                                   
+                                   function scrollFunction() {
+                                     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                       mybutton.style.display = "block";
+                                     } else {
+                                       mybutton.style.display = "none";
+                                     }
+                                   }
+                                   
+                                   // When the user clicks on the button, scroll to the top of the document
+                                   function topFunction() {
+                                     document.body.scrollTop = 0;
+                                     document.documentElement.scrollTop = 0;
+                                   }
+                                   
+                                   </script>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
